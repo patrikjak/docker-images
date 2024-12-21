@@ -10,4 +10,4 @@ image=$1
 
 cd ./dockerfiles/${image}
 
-docker build -t patrikjak/${image} .
+docker build --no-cache -t patrikjak/${image} .
